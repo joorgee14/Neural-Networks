@@ -31,6 +31,7 @@ Implemented an attention mechanism from scratch for an LSTM-based RNN, following
 Completed the implementation of a VAE for the CelebA dataset using convolutional networks. Additionally, built a VAE for synthetic data from a 3D Gaussian Mixture Model using dense layers. Compared generated samples to the ground truth, evaluated missing modes, and used T-SNE to visualize and analyze clustering behavior in the latent space.
 
 Kaggle Competition:
+
 This competition focused on binary classification of skin lesions using the ISIC (International Skin Imaging Collaboration) dataset. The task was to build a robust model capable of distinguishing malignant from benign skin lesions from dermoscopic images.
 
 Participants were provided with:
