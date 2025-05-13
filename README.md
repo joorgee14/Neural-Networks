@@ -1,6 +1,8 @@
 # Neural-Networks
 
 Project Grades : 10
+Kaggle Competition Final Position in Private Leaderboard --> 2nd
+AUC score -> 0.94327
 
 This coursework focused on:
 
@@ -25,3 +27,18 @@ Implemented an attention mechanism from scratch for an LSTM-based RNN, following
 
 - Project 4: Variational Autoencoder (VAE)
 Completed the implementation of a VAE for the CelebA dataset using convolutional networks. Additionally, built a VAE for synthetic data from a 3D Gaussian Mixture Model using dense layers. Compared generated samples to the ground truth, evaluated missing modes, and used T-SNE to visualize and analyze clustering behavior in the latent space.
+
+Kaggle Competition:
+This competition focused on binary classification of skin lesions using the ISIC (International Skin Imaging Collaboration) dataset. The task was to build a robust model capable of distinguishing malignant from benign skin lesions from dermoscopic images.
+
+Participants were provided with:
+
+A training set of labeled images (target = 1 for malignant, 0 for benign)
+
+A separate test set of unlabeled images
+
+The goal was to predict the probability that each test image was malignant
+
+The main challenge lay in the class imbalance (malignant cases were the minority), requiring careful preprocessing, model tuning, and evaluation strategies. The final metric used to rank submissions was the Area Under the ROC Curve (AUC).
+
+We approached the task using deep learning (CNNs) with EfficientNet backbones, applied cross-validation, handled imbalance using sampling techniques, and visualized model decisions using Grad-CAM and saliency maps.
