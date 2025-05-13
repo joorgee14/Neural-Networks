@@ -1,10 +1,10 @@
 # Neural-Networks
 
-**Project Grades : 10
+# Project Grades : 10
 
-Kaggle Competition Final Position in Private Leaderboard --> 2nd
+# Kaggle Competition Final Position in Private Leaderboard --> 2nd
 
-AUC score -> 0.94327**
+# AUC score -> 0.94327
 
 This coursework focused on:
 
@@ -30,7 +30,7 @@ Implemented an attention mechanism from scratch for an LSTM-based RNN, following
 - Project 4: Variational Autoencoder (VAE)
 Completed the implementation of a VAE for the CelebA dataset using convolutional networks. Additionally, built a VAE for synthetic data from a 3D Gaussian Mixture Model using dense layers. Compared generated samples to the ground truth, evaluated missing modes, and used T-SNE to visualize and analyze clustering behavior in the latent space.
 
-Kaggle Competition:
+# Kaggle Competition:
 
 This competition focused on binary classification of skin lesions using the ISIC (International Skin Imaging Collaboration) dataset. The task was to build a robust model capable of distinguishing malignant from benign skin lesions from dermoscopic images.
 
