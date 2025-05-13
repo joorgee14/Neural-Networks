@@ -1,7 +1,9 @@
 # Neural-Networks
 
 Project Grades : 10
+
 Kaggle Competition Final Position in Private Leaderboard --> 2nd
+
 AUC score -> 0.94327
 
 This coursework focused on:
